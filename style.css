@@ -174,13 +174,18 @@ body{
     opacity: 0;
     pointer-events: none;
 }
-
 .popup.hide{
     color: #8d3bc4;
 }
-
 #conteudoJanela{
     margin: 30px;
     color: #fff;
     overflow: hidden;
+}
+.pg_conteudo{
+  max-width: 80%;
+  margin: 0 50px 100px 50px;
+}
+.pg_conteudo p{
+  margin-top:5px;
 }
