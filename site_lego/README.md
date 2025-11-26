@@ -26,18 +26,6 @@ Entre os principais pontos abordados estão:
 
 ---
 
-## 🚀 Como visualizar o site
-
-Basta abrir o arquivo **`index.html`** diretamente no navegador ou utilizar uma extensão de servidor local (como *Live Server* do VS Code) para melhor experiência durante o desenvolvimento.
-
----
-
 ## 🎯 Objetivo acadêmico
 
 Este projeto demonstra a aplicação prática dos conceitos aprendidos em sala de aula na área de **Desenvolvimento Web**, servindo como base para estudos futuros e aprimoramento de habilidades front-end.
-
----
-
-## 📌 Observações
-
-Este projeto pode ser expandido com novas funcionalidades conforme o curso avança. Contribuições, sugestões e melhorias são sempre bem-vindas.
