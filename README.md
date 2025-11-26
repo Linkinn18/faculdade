@@ -1,7 +1,7 @@
 # 📚 Projetos da Faculdade
 
 Este repositório reúne uma coleção de projetos desenvolvidos ao longo da minha trajetória acadêmica. Cada pasta contém implementações, exercícios, pesquisas ou aplicações práticas relacionadas às disciplinas da faculdade.
-
+ 
 O objetivo deste espaço é documentar minha evolução, registrar aprendizados e compartilhar soluções que podem servir de referência para outros estudantes ou profissionais.
 
 ---
