@@ -6,7 +6,8 @@
 body{
     color: #fff;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
-    font-family: 'Roboto Condensed';    
+    font-family: 'Roboto Condesed';    
+
 }
 #cabecalho{
     width: 100%;
@@ -188,4 +189,307 @@ body{
 }
 .pg_conteudo p{
   margin-top:5px;
+}
+.form{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+.form ul{
+    list-style: none;
+
+}
+.form label{
+    display: block;
+    font-size: 1.2em;
+    padding: 20px;
+    color: black;
+}
+
+.form input[type="text"]{
+    font-size: 0.9em;
+    color: black;
+    padding: 5px;
+    width: 50%;
+    font-family: 'Roboto Condesed';
+    border-radius: 8px;
+
+}
+.form textarea{
+    font-size: 0.9em;
+    color: black;
+    padding: 5px;
+    width: 50%;
+    border-radius: 8px;
+    height: 100px;
+    font-family: 'Roboto Condesed';
+    resize: none;
+}
+.form input[type="submit"]{
+    background-color: #163C66;
+    font-size: 0.9em;
+    color: white;
+    padding: 5px;
+    width: 10%;
+    border: 2px solid #163C66;
+    border-radius: 8px;
+    font-family: 'Roboto Condesed';
+    margin-top: 10px;   
+
+}
+.cardapio {
+    background-color: #163C66;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.cardapio-titulo {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.pizza-item {
+    background-color: #F36F44;
+    color: #163C66;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #163C66;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+
+.pizza-item h3 {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+.pizza-item p {
+    color: #fff;
+    margin-bottom: 8px;
+    font-size: 0.95em;
+}
+
+.pizza-item .preco {
+    display: inline-block;
+    padding: 5px 12px;
+    background-color: #163C66;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* ======== ESTILO DA PÁGINA DE CONTATO ======== */
+
+body {
+    font-family: 'Roboto Condensed';
+    background-color: #fff;
+    color: #163C66;
+}
+
+/* Título */
+.titulo1 {
+    color: #163C66;
+    margin: 20px 50px;
+}
+
+/* Container geral */
+.contato-container {
+    background-color: #163C66;
+    padding: 25px;
+    border-radius: 12px;
+    color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.contato-container h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
+
+.contato-container p {
+    margin-bottom: 20px;
+}
+
+/* ======== FORMULÁRIO ======== */
+
+.form-contato {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    color: #163C66;
+    border: 2px solid #163C66;
+    margin-bottom: 25px;
+}
+
+.form-contato label {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #163C66;
+    margin-top: 10px;
+    display: block;
+}
+
+.form-contato input[type="text"],
+.form-contato textarea {
+    width: 90%;
+    padding: 8px;
+    font-size: 1em;
+    margin: 8px 0 15px 0;
+    border-radius: 8px;
+    border: 2px solid #163C66;
+    font-family: 'Roboto Condensed';
+    color: #163C66;
+    background-color: #f8f8f8;
+}
+
+.form-contato textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* Botão */
+.form-contato input[type="submit"] {
+    width: 25%;
+    padding: 10px;
+    background-color: #163C66;
+    border: 2px solid #163C66;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.form-contato input[type="submit"]:hover {
+    background-color: #0f2a46;
+}
+
+/* ======== INFORMAÇÕES ======== */
+
+.contato-info {
+    margin-top: 20px;
+}
+
+.contato-info h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.contato-info p {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+/* ======== PÁGINA SOBRE — ESTILO MODERNO ======== */
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #fff;
+    color: #163C66;
+}
+
+/* Título */
+.titulo1 {
+    color: #163C66;
+    font-size: 2em;
+    margin: 20px 50px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+/* ===== HERO (topo estilizado) ===== */
+
+.sobre-hero {
+    background: linear-gradient(
+        rgba(22, 60, 102, 0.85), 
+        rgba(22, 60, 102, 0.85)
+    ), 
+    url('pizza-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    padding: 60px 40px;
+    color: #fff;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+}
+
+.sobre-hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.sobre-hero p {
+    font-size: 1.2em;
+}
+
+/* ===== SEÇÃO DE CARDS ===== */
+
+.sobre-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sobre-card {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    border-left: 8px solid #163C66;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.sobre-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.22);
+}
+
+.sobre-card h3 {
+    font-size: 1.6em;
+    color: #163C66;
+    margin-bottom: 15px;
+}
+
+.sobre-card p {
+    line-height: 1.6em;
+    font-size: 1.1em;
+}
+
+.sobre-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sobre-card ul li {
+    margin: 8px 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #163C66;
+}
+
+/* ===== CHAMADA FINAL ===== */
+
+.sobre-chamada {
+    background-color: #163C66;
+    padding: 35px;
+    text-align: center;
+    color: #fff;
+    border-radius: 12px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.25);
+}
+
+.sobre-chamada h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.sobre-chamada p {
+    font-size: 1.2em;
 }

@@ -23,11 +23,10 @@ $(document).ready(function(){
         janelaPopup.toggle();
         fundoPopup.toggle();
     })
-    // $("#rightbar").load("./pg_endereco.html");
 	linksPg = $(".linksPg");
 	linksPg.on("click",function( event ){
-		// event.preventDefault();
+		event.preventDefault();
 		var pagina = $(this).attr("href");
-	    $("#rightbar").load("./pg_" + pagina);
+	    $("#rightbar").load("./pg_" + pagina + ".html");
     });
 });
